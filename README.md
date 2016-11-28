@@ -1,5 +1,8 @@
 # react-native-realpath
 
+## 使用方法
+npm i git+https://github.com/IllegalCreed/react-native-realpath.git --save
+
 ## 应用场景
 
 当你使用类似imagePicker之类的组件的时候你可能会得到一个uri的路径
