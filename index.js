@@ -1,7 +1,6 @@
-import React from 'react';
 import {
   NativeModules
 } from 'react-native';
-const RealPath = React.NativeModules.RealPath;
+const RealPath = NativeModules.RealPath;
 
 module.exports = RealPath;
