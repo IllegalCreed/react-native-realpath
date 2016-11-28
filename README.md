@@ -12,11 +12,7 @@ npm i git+https://github.com/IllegalCreed/react-native-realpath.git --save
 ## 用法
 
 ```
-import React from 'react';
-import {
-  NativeModules
-} from 'react-native';
-const RealPath = NativeModules.RealPath;
+import RealPath from 'react-native-realpath'
 
 RealPath.getRealPath("你的uri").then((path)=>{
           ...
